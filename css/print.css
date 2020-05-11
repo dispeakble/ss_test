@@ -1,3 +1,6 @@
 @media print {
+  .main{
+    text-align: justify;
+  }
   .footer {background:none; color: inherit}
 }
