@@ -1,2 +1,2 @@
 @import url('layout.css') screen;
-@import url('print.css') print;
+@import print rl('print.css');
