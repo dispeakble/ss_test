@@ -7,3 +7,6 @@ html, body{
   font-size:70%;
   font-family:'Comic Sans MS', sans-serif, serif;
 }
+aside{
+  float: left;
+}
