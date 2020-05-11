@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Style sheet import test</title>
+  <style>
+  @import 'css/main.css';
+  </style>
+  <script>
+  setTimeout(function(){
+  var style = documnet.createElement('style');
+  style.innerText = '@import "css/body.css"';
+  }, 3000);
+  </script>
+</head>
+<body>
+  <style>
+  @import 'css/footer.css';
+  </style>
+</body>
+</html>
