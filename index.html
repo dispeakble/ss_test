@@ -8,7 +8,7 @@
   </style>
   <script>
   setTimeout(function(){
-  var style = documnet.createElement('style');
+  var style = document.createElement('style');
   style.innerText = '@import "css/body.css"';
   }, 3000);
   </script>
@@ -24,7 +24,7 @@
   setTimeout(function(){
   var footer = document.createElement('div');
     footer.setAttribute('class', 'footer');
-    footer.innerHTML('<pre>Should be a generic font face</pre>');
+    footer.innerHTML = '<pre>Should be a generic font face</pre>';
     document.body.appendChild(footer);
   }, 5000);
   </script>
